@@ -1,0 +1,24 @@
+{
+  "name": "pixelcloud-relay",
+  "version": "1.0.0",
+  "description": "DuoStream Access Manager - Relay and Host PC Applications",
+  "private": true,
+  "scripts": {
+    "install-all": "npm install && npm run install:relay && npm run install:host",
+    "install:relay": "cd relay-app && npm install",
+    "install:host": "cd host-app && npm install",
+    "start:relay": "cd relay-app && npm start",
+    "start:host": "cd host-app && npm start",
+    "build:relay": "cd relay-app && npm run build",
+    "build:host": "cd host-app && npm run build"
+  },
+  "keywords": [
+    "duostream",
+    "relay",
+    "access-management",
+    "electron",
+    "tailscale"
+  ],
+  "author": "",
+  "license": "MIT"
+}
